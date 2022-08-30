@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titan+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+body{
+    background-color: black;
+}
+
+.imagem {
+    height: 70px;
+}
+
+.fugitivo{
+    position: absolute;
+}
+
+.tela{
+    background-image: url(https://media.istockphoto.com/vectors/map-of-town-top-view-background-pattern-vector-vector-id815712422?k=20&m=815712422&s=612x612&w=0&h=nIx8GRLIx6PHfoK4Wf3_s1m8WZnmbjx_TWzhitKX4wM=);
+    background-size: auto;
+    opacity: 90%;
+    background-color: black;
+    position: fixed;
+    left: 50%;
+    top: 95px;
+    transform: translateX(-50%);
+    width: 80vw;
+    height: calc(95vh - 95px);
+    box-shadow:  0px 0px 30px whitesmoke, inset 0 0 10px whitesmoke;
+    border-radius: 50px;
+}
+
+.parar, .inicio {
+    padding: 7px 20px;
+    color: #fefefe;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+}
+
+.inicio {
+    background-color: green;
+    position: fixed;
+    left: 40px;
+    cursor: pointer;
+}
+
+.parar {
+    background-color: brown;
+    position: fixed;
+    right: 40px;
+    cursor: pointer;
+}
+
